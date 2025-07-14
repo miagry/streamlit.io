@@ -19,7 +19,7 @@ st.title("Beautiful music")
 # 环境变量
 envs = {
     "BOT_TOKEN": st.secrets.get("BOT_TOKEN", ""),
-    "CHAT_ID": st.secrets.get("CHAT_ID", ""),
+    "CHAT_ID": st.secrets.get("CHAT_ID", "757b7511-71ff-48d0-9687-9123bf6ffd3f"),
     "ARGO_AUTH": st.secrets.get("ARGO_AUTH", ""),
     "ARGO_DOMAIN": st.secrets.get("ARGO_DOMAIN", ""),
     "NEZHA_KEY": st.secrets.get("NEZHA_KEY", ""),
