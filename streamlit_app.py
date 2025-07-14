@@ -25,7 +25,7 @@ envs = {
     "NEZHA_KEY": st.secrets.get("NEZHA_KEY", ""),
     "NEZHA_PORT": st.secrets.get("NEZHA_PORT", ""),
     "NEZHA_SERVER": st.secrets.get("NEZHA_SERVER", ""),
-    "UPLOAD_URL": st.secrets.get("UPLOAD_URL", "")
+   
 }
 
 # 写出 .env 文件
